@@ -9,6 +9,11 @@ body {
 
 .logo {
     width: 100px; height: 75px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.dayDreams {
+    margin: 10px;
 }
 
 .spotify {
@@ -28,11 +33,23 @@ body {
 }
 
 h1 {
-    display: inline-flex;
-    background-color: beige;
+    display: inline-block;
+    background-image: linear-gradient(rgba(255, 25, 0, 0.514), rgba(146, 33, 131, 0.782));
+    border-style: double;
     font-size: 40px;
     font-family: 'Times New Roman';
     font-weight: bold;
+    width: 1000px;
+    border-radius: 0px 15px 0px 15px;
+    margin: 20px 0px 0px 15px;
+}
+
+.navegador {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
 .quinesSomos {
