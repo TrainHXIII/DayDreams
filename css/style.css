@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+.logo {
+    width: 100px; height: 75px;
+}
+
+.spotify {
+    width: 100px; position: absolute; right: 300px;
+}
+
+.facebook {
+    width: 100px; position: absolute; right: 200px;
+}
+
+.instagram {
+    width: 100px; position: absolute; right: 100px;
+}
+
+.youtube {
+    width: 100px; position: absolute; right: 0px;
+}
+
+h1 {
+    display: inline-flex;
+    background-color: beige;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+.quinesSomos {
+    margin: 7px;
+    border: 2px solid; color: rgb(42, 200, 195);
+    background-color: rgb(115, 66, 227);
+    font-size: 15px;
+    text-align: justify;
+}
+
+h2 {
+    color: darkred;
+    font-size: 30px;
+    font-family: 'Trebuchet MS';
+}
+
+.videoIndex {
+    width: 1000px; height: 500px;
+}
