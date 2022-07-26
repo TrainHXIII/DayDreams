@@ -5,6 +5,7 @@
 
 body {
     background-image: url(../img/background.jpg);
+    background-size: 100%;
 }
 
 .logo {
@@ -34,7 +35,7 @@ body {
 
 h1 {
     display: inline-block;
-    background-image: linear-gradient(rgba(255, 25, 0, 0.514), rgba(146, 33, 131, 0.782));
+    background-image: linear-gradient(rgba(255, 25, 0, 0.514), rgba(146, 33, 131, 0.782), rgba(43, 16, 176, 0.686));
     border-style: double;
     font-size: 40px;
     font-family: 'Times New Roman';
@@ -50,6 +51,10 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     
+}
+
+.navegador :hover {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.988), rgba(208, 49, 105, 0.714));
 }
 
 .quinesSomos {
